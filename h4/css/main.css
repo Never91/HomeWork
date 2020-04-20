@@ -7,7 +7,7 @@ width: 920px;
 
 
 .section{
-font-family:'PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular' ;
+font-family: 'Playfair Display', serif;
 font-size: 14px;
 font-weight: 400;
 width: 420px;
@@ -34,7 +34,7 @@ margin-bottom: 32px;
 
 
 .img_title{
-font-family: 'Ubuntu-Light,AdobeInvisFont,MyriadPro-Regular' ;
+font-family: 'Ubuntu', sans-serif;
 font-size: 14px;
 font-weight: 300;
 text-transform: uppercase;
@@ -60,7 +60,7 @@ color: #626262;
 
 
 .button{
-font-family: 'PlayfairDisplay-Regular,AdobeInvisFont,MyriadPro-Regular' ;
+font-family: 'Playfair Display', serif;
 font-size:20px;
 font-weight: 400;
 color: #626262;
