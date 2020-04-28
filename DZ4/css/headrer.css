@@ -54,16 +54,6 @@ justify-content: space-between;
 }
 
 
-.menu_list_item:hover{
-color: #F38181;
-padding-bottom: 11px;
-border-bottom: 4px solid #F38181 ;
-width: 51px;
- 
- 
-}
-
-
 
 .menu_list_link:hover{
     color: #F38181;
