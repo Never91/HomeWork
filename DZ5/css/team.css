@@ -1,0 +1,110 @@
+
+.team{
+    margin: auto;
+    text-align: center;
+    
+    }
+    
+    
+    .card_team{
+    width: 380px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-bottom: 100px;
+
+    
+    }
+    
+    .hidden_box{
+        width: 380px;
+        height: 470px;
+        position: relative;
+    }
+    
+    
+    .hidden_box:hover>.social_hidden{
+        opacity: 1;
+        transition: 0.3s linear;
+        transform: translate(-10px, -10px);
+    
+    }
+    
+    .hidden_box:hover>.team_photo{
+        box-shadow: 10px 10px 0 0 rgba(149, 225, 211,1);
+        transform: translate(-10px, -10px);
+        transition: 0.3s linear;
+    }
+    
+    
+    .team_photo:hover{
+    width: 380px;
+    height: auto;
+    
+    }
+    
+    
+    .social_hidden{
+    font-size: 0;
+    width: 380px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(234, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+    
+    }
+    
+    
+    
+    .social_link{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    margin-left: 1px;
+    background-color: #fce38a;
+    position: relative;
+    }
+    
+    .social_link:hover{
+        background-color: #95e1d3;
+    }
+    
+    .social_link:last-child{
+        margin-right: 0;
+    }
+    
+    
+    .social_icon{
+    position: absolute;
+    top: 50%;
+    left: 50% ;
+    transform: translate( -50%, -50%);
+    }
+    
+    .team_name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 31px;
+    }
+    
+    .team_proffi{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #bfbfbf;
+    }
+    
+    
+    
+    
+    
+    
