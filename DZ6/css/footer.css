@@ -2,9 +2,15 @@
 
 .footer{
     text-align: center;
+
     height: 678px;
     background-color: #222222;
     padding-top: 115px; 
+
+    background-image: url(../image/Map\ Image@1X.png);
+    background-repeat: no-repeat;
+
+    background-position: right;
     
 }
 
