@@ -3,9 +3,9 @@
 .footer{
     text-align: center;
 
-    height: 678px;
+    height: auto;
     background-color: #222222;
-    padding-top: 115px; 
+     
 
     background-image: url(../image/Map\ Image@1X.png);
     background-repeat: no-repeat;
@@ -22,7 +22,8 @@
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #ffffff;
-    padding-top: 115pxpx;
+    padding-top: 115px;
+    
 
 }
 
