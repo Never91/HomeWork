@@ -1,6 +1,4 @@
 
-
-
 .header{
 font-family: 'Montserrat', sans-serif ;
 display: flex;
@@ -9,10 +7,27 @@ width: 1163px;
 text-align: center;
 margin: auto;
 align-items: center;
-margin-top: 28px;
-
+padding-top: 28px;
+padding-bottom: 28px;
 
 }
+
+
+
+.wrapper{
+    width: 100%;
+    position: fixed;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+background-color: #FFFFFF;
+z-index: 3;
+}
+
+
+
+
+
 
 .logo_link{
 

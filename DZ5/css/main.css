@@ -1,5 +1,5 @@
 .main{
- margin-top: 113px;
+ margin-top: 206px;
 text-align: center;
 color: #333333;
 
@@ -49,7 +49,7 @@ margin-top: 41px;
 
    
 .servises_card{
-    width: 100%;
+    width: 320px;
     margin-bottom: 36px;
     text-align: left;
     
@@ -118,14 +118,6 @@ margin-top: 41px;
     }
     
     
-    .card_conteiner{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 60px; 
-        flex-wrap: wrap;
-        
-    }
-
 .card_wrapper{
     display: flex;
     justify-content: space-between;
