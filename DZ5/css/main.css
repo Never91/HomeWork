@@ -126,7 +126,12 @@ margin-top: 41px;
         
     }
 
-
+.card_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px; 
+    flex-wrap: wrap;
+}
 
 
 
