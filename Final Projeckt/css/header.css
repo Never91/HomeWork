@@ -1,0 +1,493 @@
+
+
+
+.introduction{
+    background-image: url(../image/img@1X.png);
+    min-width: 321px;
+    height: 760px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+
+
+.header{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem 0 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    min-width: 321px;
+    height: 81px;
+    background-color: #fff;
+
+}
+
+
+.logo{
+font-size: 30px;
+font-weight: 700;
+font-family: 'Raleway', sans-serif;
+
+}
+
+.logo_link{
+    cursor: pointer;
+   color: #330CF4;
+   font-size: 26px;
+}
+
+
+
+.burger_menu{
+position: relative;
+padding-right: 20px;
+
+
+
+}
+
+
+
+
+
+.burger_btn:hover + .menu_list{
+display: block;
+}
+
+.burger_btn{
+font-size: 30px;
+color: #000;
+padding-top: 21px;
+padding-bottom: 21px;
+
+}
+
+.menu_item_link{
+font-size: 16px;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+padding: 10px 20px;
+ /* padding-top: 10px;
+padding-left: 20px;  */
+background-color: #FFF;
+color: #000;
+
+
+
+}
+
+
+
+
+.menu_item{
+     margin-top: 10px; 
+   margin-bottom: 20px; 
+   text-align: right;  
+   right: 0;
+   
+    
+}
+
+
+
+.menu_item_link:hover{
+    color:#888;
+}
+
+.burger_btn:hover{
+    color: #333333 ;
+} 
+
+
+.menu_list{
+    position: absolute;
+    top: 100%;
+     right: 0; 
+    display: none;
+
+
+}
+
+
+.welcome{
+text-align: center;
+margin: 0 auto;
+}
+
+.welcome_subtite{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: fff;
+    margin-bottom: 23px;
+    color: #fff;
+
+}
+
+
+.welcome_title{
+    font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 48px;
+text-transform: uppercase;
+margin-bottom: 36px;
+color: #fff;
+
+}
+
+
+
+.welcome_title::after{
+
+display: block;
+width: 60px;
+height: 3px;
+background-color: #fff;
+margin: 39px auto 0;
+}
+
+
+.welcome_btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 3px solid #fff;
+    background-color: transparent;
+    margin-bottom: 158px;
+
+
+}
+
+
+.introduction_title{
+margin-top: 92px;
+font-size: 24px;
+width: 286px ;
+margin-left: 14px;
+text-align: left;
+color: #FFF;
+font-family: 'Raleway', sans-serif; 
+font-weight: 700;
+font-size: 24px;
+
+}
+
+
+.subtitle{
+    margin-top: 20px;
+    font-size: 16px;
+    width: 285px ;
+    margin-left: 14px;
+    text-align: left;
+   color: #FFF;
+   padding-bottom: 30px;
+   font-weight: 16px ;
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.ssulka{
+    font-size: 20px;
+  color: #FFF;
+}
+
+
+.card_subtitle{
+     font-size: 20px;
+     color: #FFF;
+
+}
+
+.span_navigation{
+    font-size: 32px;
+    color: #FFF;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    
+}
+
+.last_button{
+    color: #FFFFFF;
+    background-color: #330CF4;
+    width: 212px;
+    height: 49px;
+    display: block;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 11px;
+    margin-left: 54px;
+    margin-top: 31px;
+    border-radius: 5px ;
+    
+}
+
+.butoon_icon{
+    padding-left: 23px;
+    padding-right: 19px;
+   
+    
+
+}
+
+
+.lol_2{
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-left: 80px;
+    display: none;
+    
+}
+
+.lol_3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+@media screen and (min-width: 768px ){
+
+
+
+
+.lol_2{
+    display: block;
+}
+
+
+
+
+    .introduction{
+        min-width: 768px ;
+        height: 760px;
+    }
+
+
+
+
+    .header{
+        background-color: #FFF;
+        margin-bottom: 144px;
+        min-width: 768px;
+        
+        
+
+        
+
+
+
+    }
+
+
+   .logo{
+       font-size: 30px;
+       font-weight: 800;
+       font-family: 'Raleway', sans-serif;
+
+
+       
+   }
+
+
+   .introduction_title{
+       font-size: 42px;
+      width: 490px;
+   }
+
+
+
+   .subtitle{
+       font-size: 22px;
+       width: 540px;
+       
+
+   }
+
+
+
+   
+
+
+.menu_item_link{
+    height: 30px;
+}
+
+
+
+
+
+
+    .welcome_subtite{
+       font-size: 60px;
+        margin-bottom: 66px;
+        color: #fff;
+        
+    
+    }
+
+
+    .welcome_title{
+        font-size: 120px;
+        margin-bottom: 50px;
+    
+    }
+
+    .welcome_title::after{
+  margin: 71px auto ;
+
+    }
+
+    .welcome_btn{
+        margin-bottom: 210px;
+        font-size: 14px;
+    }
+
+
+
+    
+        .burger_menu{
+        position: static;
+        width: 500px;
+    }
+
+
+    
+    .burger_btn{
+        display: none;
+    }
+
+
+    .menu_list{
+        display: flex;
+        position: static;
+    }
+
+   
+
+    @media screen and (min-width: 1200px ){
+    
+        .introduction{
+            min-width: 1200px ;
+        }
+
+
+
+   
+    .header{
+        min-width: 1200px ;
+        margin-bottom: 92px;
+      
+
+    }
+    
+
+    .lol_2{
+        margin-top: 0;
+    }
+
+
+
+    
+    
+        .burger_menu{
+        position: static;
+        width: 500px;
+    }
+
+
+    
+    .burger_btn{
+        display: none;
+    }
+
+    .introduction_title{
+        font-size: 47px;
+        width: 541px;
+    }
+
+    .subtitle{
+        font-size: 22px;
+    }
+
+
+
+
+   .menu_list{
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+   }
+    
+  .navigation:hover> .menu_list{
+      display: flex;
+  }
+
+
+  .menu_item_link{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  padding-bottom: 12px;
+  border-bottom: 2rem ;
+
+
+
+  }
+
+  .menu_item_link:hover{
+  text-decoration: none;
+  color: #fce38a;
+
+  }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
