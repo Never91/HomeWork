@@ -72,8 +72,6 @@ font-size: 16px;
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 padding: 10px 20px;
- /* padding-top: 10px;
-padding-left: 20px;  */
 background-color: #FFF;
 color: #000;
 
@@ -239,6 +237,45 @@ font-size: 24px;
     
 
 }
+
+
+.imput_1{
+   border: 0px;
+   font-size: 20px;
+   color: #FFF;
+   margin-top: 10px;
+
+}
+
+.imput_2{
+  display: none;
+
+}
+
+.imput_conteiner{
+    display: block;
+}
+
+
+.imput_1:hover + .imput_2{
+    display: block;
+    margin-top: 39px;
+    font-size: 20px;
+    color: #FFF;
+
+
+}
+
+
+.imput_conteiner{
+     display: flex;
+     cursor: pointer;
+      font-family: 'Open Sans', sans-serif; 
+      font-weight: 600;
+
+}
+
+
 
 
 .lol_2{
@@ -413,12 +450,13 @@ font-size: 24px;
     }
 
     .introduction_title{
-        font-size: 47px;
-        width: 541px;
+        font-size: 57px;
+        width: auto;
     }
 
     .subtitle{
-        font-size: 22px;
+        font-size: 32px;
+        width: auto;
     }
 
 
@@ -457,7 +495,14 @@ font-size: 24px;
   }
 
 
+.imput_1{
+    font-size: 26px;
+}
 
+.imput_2{
+    font-size: 26px;
+
+}
 
 
 
