@@ -4,7 +4,7 @@
 .header__introduction{
     background-image: url(../image/img@1X.png);
     min-width: 321px;
-    height: 760px;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
@@ -227,12 +227,14 @@ font-size: 24px;
     margin-left: 54px;
     margin-top: 31px;
     border-radius: 5px ;
+    margin-bottom: 81px;
     
 }
 
 .header__butoon_icon{
     padding-left: 23px;
     padding-right: 19px;
+    
    
     
 
