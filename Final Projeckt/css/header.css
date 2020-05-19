@@ -1,7 +1,7 @@
 
 
 
-.introduction{
+.header__introduction{
     background-image: url(../image/img@1X.png);
     min-width: 321px;
     height: 760px;
@@ -12,7 +12,7 @@
 
 
 
-.header{
+.header__header{
     font-size: 14px;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
@@ -28,14 +28,14 @@
 }
 
 
-.logo{
+.header__logo{
 font-size: 30px;
 font-weight: 700;
 font-family: 'Raleway', sans-serif;
 
 }
 
-.logo_link{
+.header__logo_link{
     cursor: pointer;
    color: #330CF4;
    font-size: 26px;
@@ -43,7 +43,7 @@ font-family: 'Raleway', sans-serif;
 
 
 
-.burger_menu{
+.header__burger_menu{
 position: relative;
 padding-right: 20px;
 
@@ -55,11 +55,11 @@ padding-right: 20px;
 
 
 
-.burger_btn:hover + .menu_list{
+.header__burger_btn:hover + .header__menu_list{
 display: block;
 }
 
-.burger_btn{
+.header__burger_btn{
 font-size: 30px;
 color: #000;
 padding-top: 21px;
@@ -67,7 +67,7 @@ padding-bottom: 21px;
 
 }
 
-.menu_item_link{
+.header__menu_item_link{
 font-size: 16px;
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
@@ -82,7 +82,7 @@ color: #000;
 
 
 
-.menu_item{
+.header__menu_item{
      margin-top: 10px; 
    margin-bottom: 20px; 
    text-align: right;  
@@ -93,16 +93,16 @@ color: #000;
 
 
 
-.menu_item_link:hover{
+.header__menu_item_link:hover{
     color:#888;
 }
 
-.burger_btn:hover{
+.header__burger_btn:hover{
     color: #333333 ;
 } 
 
 
-.menu_list{
+.header__menu_list{
     position: absolute;
     top: 100%;
      right: 0; 
@@ -112,12 +112,12 @@ color: #000;
 }
 
 
-.welcome{
+.header__welcome{
 text-align: center;
 margin: 0 auto;
 }
 
-.welcome_subtite{
+.header__welcome_subtite{
     font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     font-size: 24px;
@@ -128,7 +128,7 @@ margin: 0 auto;
 }
 
 
-.welcome_title{
+.header__welcome_title{
     font-family: 'Montserrat', sans-serif;
 font-weight: 700;
 font-size: 48px;
@@ -140,7 +140,7 @@ color: #fff;
 
 
 
-.welcome_title::after{
+.header__welcome_title::after{
 
 display: block;
 width: 60px;
@@ -150,7 +150,7 @@ margin: 39px auto 0;
 }
 
 
-.welcome_btn{
+.header__welcome_btn{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 12px;
@@ -165,7 +165,7 @@ margin: 39px auto 0;
 }
 
 
-.introduction_title{
+.header__introduction_title{
 margin-top: 92px;
 font-size: 24px;
 width: 286px ;
@@ -179,7 +179,7 @@ font-size: 24px;
 }
 
 
-.subtitle{
+.header__subtitle{
     margin-top: 20px;
     font-size: 16px;
     width: 285px ;
@@ -194,19 +194,19 @@ font-size: 24px;
 
 
 
-.ssulka{
+.header__ssulka{
     font-size: 20px;
   color: #FFF;
 }
 
 
-.card_subtitle{
+.header__card_subtitle{
      font-size: 20px;
      color: #FFF;
 
 }
 
-.span_navigation{
+.header__span_navigation{
     font-size: 32px;
     color: #FFF;
     padding-left: 16px;
@@ -215,7 +215,7 @@ font-size: 24px;
     
 }
 
-.last_button{
+.header__last_button{
     color: #FFFFFF;
     background-color: #330CF4;
     width: 212px;
@@ -230,7 +230,7 @@ font-size: 24px;
     
 }
 
-.butoon_icon{
+.header__butoon_icon{
     padding-left: 23px;
     padding-right: 19px;
    
@@ -239,7 +239,7 @@ font-size: 24px;
 }
 
 
-.imput_1{
+.header__imput_1{
    border: 0px;
    font-size: 20px;
    color: #FFF;
@@ -247,17 +247,17 @@ font-size: 24px;
 
 }
 
-.imput_2{
+.header__imput_2{
   display: none;
 
 }
 
-.imput_conteiner{
+.header__imput_conteiner{
     display: block;
 }
 
 
-.imput_1:hover + .imput_2{
+.header__imput_1:hover + .header__imput_2{
     display: block;
     margin-top: 39px;
     font-size: 20px;
@@ -267,7 +267,7 @@ font-size: 24px;
 }
 
 
-.imput_conteiner{
+.header__imput_conteiner{
      display: flex;
      cursor: pointer;
       font-family: 'Open Sans', sans-serif; 
@@ -278,7 +278,7 @@ font-size: 24px;
 
 
 
-.lol_2{
+.header__lol_2{
     padding-right: 80px;
     padding-top: 15px;
     padding-left: 80px;
@@ -286,7 +286,7 @@ font-size: 24px;
     
 }
 
-.lol_3{
+.header__lol_3{
     display: flex;
     justify-content: space-between;
 }
@@ -299,14 +299,14 @@ font-size: 24px;
 
 
 
-.lol_2{
+.header__lol_2{
     display: block;
 }
 
 
 
 
-    .introduction{
+    .header__introduction{
         min-width: 768px ;
         height: 760px;
     }
@@ -314,7 +314,7 @@ font-size: 24px;
 
 
 
-    .header{
+    .header__header{
         background-color: #FFF;
         margin-bottom: 144px;
         min-width: 768px;
@@ -328,7 +328,7 @@ font-size: 24px;
     }
 
 
-   .logo{
+   .header__logo{
        font-size: 30px;
        font-weight: 800;
        font-family: 'Raleway', sans-serif;
@@ -338,14 +338,14 @@ font-size: 24px;
    }
 
 
-   .introduction_title{
+   .header__introduction_title{
        font-size: 42px;
       width: 490px;
    }
 
 
 
-   .subtitle{
+   .header__subtitle{
        font-size: 22px;
        width: 540px;
        
@@ -357,7 +357,7 @@ font-size: 24px;
    
 
 
-.menu_item_link{
+.header__menu_item_link{
     height: 30px;
 }
 
@@ -366,7 +366,7 @@ font-size: 24px;
 
 
 
-    .welcome_subtite{
+    .header__welcome_subtite{
        font-size: 60px;
         margin-bottom: 66px;
         color: #fff;
@@ -375,18 +375,18 @@ font-size: 24px;
     }
 
 
-    .welcome_title{
+    .header__welcome_title{
         font-size: 120px;
         margin-bottom: 50px;
     
     }
 
-    .welcome_title::after{
+    .header__welcome_title::after{
   margin: 71px auto ;
 
     }
 
-    .welcome_btn{
+    .header__welcome_btn{
         margin-bottom: 210px;
         font-size: 14px;
     }
@@ -394,19 +394,19 @@ font-size: 24px;
 
 
     
-        .burger_menu{
+        .header__burger_menu{
         position: static;
         width: 500px;
     }
 
 
     
-    .burger_btn{
+    .header__burger_btn{
         display: none;
     }
 
 
-    .menu_list{
+    .header__menu_list{
         display: flex;
         position: static;
     }
@@ -415,14 +415,14 @@ font-size: 24px;
 
     @media screen and (min-width: 1200px ){
     
-        .introduction{
+        .header__introduction{
             min-width: 1200px ;
         }
 
 
 
    
-    .header{
+    .header__header{
         min-width: 1200px ;
         margin-bottom: 92px;
       
@@ -430,7 +430,7 @@ font-size: 24px;
     }
     
 
-    .lol_2{
+    .header__lol_2{
         margin-top: 0;
     }
 
@@ -438,23 +438,23 @@ font-size: 24px;
 
     
     
-        .burger_menu{
+        .header__burger_menu{
         position: static;
         width: 500px;
     }
 
 
     
-    .burger_btn{
+    .header__burger_btn{
         display: none;
     }
 
-    .introduction_title{
+    .header__introduction_title{
         font-size: 57px;
         width: auto;
     }
 
-    .subtitle{
+    .header__subtitle{
         font-size: 32px;
         width: auto;
     }
@@ -462,7 +462,7 @@ font-size: 24px;
 
 
 
-   .menu_list{
+   .header__menu_list{
     position: static;
     display: flex;
     justify-content: space-between;
@@ -471,12 +471,12 @@ font-size: 24px;
 
    }
     
-  .navigation:hover> .menu_list{
+  .header__navigation:hover> .header__menu_list{
       display: flex;
   }
 
 
-  .menu_item_link{
+  .header__menu_item_link{
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
@@ -488,18 +488,18 @@ font-size: 24px;
 
   }
 
-  .menu_item_link:hover{
+  .header__menu_item_link:hover{
   text-decoration: none;
   color: #fce38a;
 
   }
 
 
-.imput_1{
+.header__imput_1{
     font-size: 26px;
 }
 
-.imput_2{
+.header__imput_2{
     font-size: 26px;
 
 }
