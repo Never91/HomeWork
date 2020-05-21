@@ -3,8 +3,6 @@
 
 .header__introduction{
     background-image: url(../image/img@1X.png);
-    min-width: 321px;
-    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
@@ -16,7 +14,7 @@
     font-size: 14px;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
-    padding: 1rem 0 0 1rem;
+    padding: 0 0 0 1rem;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -27,18 +25,20 @@
 
 }
 
-
+/* 
 .header__logo{
-font-size: 30px;
+ font-size: 30px;
 font-weight: 700;
-font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif; 
 
-}
+} */
 
 .header__logo_link{
     cursor: pointer;
    color: #330CF4;
    font-size: 26px;
+font-weight: 700;
+font-family: 'Raleway', sans-serif;
 }
 
 
@@ -46,8 +46,6 @@ font-family: 'Raleway', sans-serif;
 .header__burger_menu{
 position: relative;
 padding-right: 20px;
-
-
 
 }
 
@@ -62,17 +60,17 @@ display: block;
 .header__burger_btn{
 font-size: 30px;
 color: #000;
-padding-top: 21px;
-padding-bottom: 21px;
+
 
 }
 
 .header__menu_item_link{
-font-size: 16px;
+font-size: 20px;
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
-padding: 10px 20px;
-background-color: #FFF;
+
+/* padding: 10px 20px;
+background-color: #FFF; */
 color: #000;
 
 
@@ -83,10 +81,11 @@ color: #000;
 
 
 .header__menu_item{
-     margin-top: 10px; 
-   margin-bottom: 20px; 
-   text-align: right;  
-   right: 0;
+     margin-top: 30px; 
+   margin-bottom: 30px; 
+
+   
+   
    
     
 }
@@ -104,9 +103,13 @@ color: #000;
 
 .header__menu_list{
     position: absolute;
-    top: 100%;
+    top: 99%;
      right: 0; 
     display: none;
+    width: 321px;
+    background-color: #FFF;
+    text-align: center;
+    border: 2px solid;
 
 
 }
@@ -168,13 +171,12 @@ margin: 39px auto 0;
 .header__introduction_title{
 margin-top: 92px;
 font-size: 24px;
-width: 286px ;
+/* width: 286px ; */
 margin-left: 14px;
-text-align: left;
+/* text-align: left; */
 color: #FFF;
 font-family: 'Raleway', sans-serif; 
 font-weight: 700;
-font-size: 24px;
 
 }
 
@@ -182,15 +184,17 @@ font-size: 24px;
 .header__subtitle{
     margin-top: 20px;
     font-size: 16px;
-    width: 285px ;
-    margin-left: 14px;
+    /* width: 285px ; */
+      margin-left: 14px;   
+      /* Не понял зачем удалять margin-left: 14px; */
+    margin-right: 14px;
     text-align: left;
    color: #FFF;
    padding-bottom: 30px;
-   font-weight: 16px ;
+   font-weight: 600 ;
    font-family: 'Open Sans', sans-serif;
 }
-
+ 
 
 
 
@@ -320,6 +324,8 @@ font-size: 24px;
         background-color: #FFF;
         margin-bottom: 144px;
         min-width: 768px;
+        display: flex;
+        justify-content: space-between;
         
         
 
@@ -332,9 +338,7 @@ font-size: 24px;
 
    .header__logo{
        font-size: 30px;
-       font-weight: 800;
        font-family: 'Raleway', sans-serif;
-
 
        
    }
@@ -361,10 +365,14 @@ font-size: 24px;
 
 .header__menu_item_link{
     height: 30px;
+    font-size: 16px;
+
 }
 
-
-
+.header__menu_item{
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
 
 
 
@@ -409,8 +417,14 @@ font-size: 24px;
 
 
     .header__menu_list{
-        display: flex;
-        position: static;
+         display: flex;
+         justify-content: space-between;
+        position: static; 
+          width: 500px;
+        background-color: #FFF;
+        text-align: center; 
+        padding-right: 30px;
+        border: none;
     }
 
    
@@ -483,8 +497,9 @@ font-size: 24px;
   font-size: 14px;
   font-weight: 400;
   color: #000;
-  padding-bottom: 12px;
+  /* padding-bottom: 12px; */
   border-bottom: 2rem ;
+  
 
 
 
