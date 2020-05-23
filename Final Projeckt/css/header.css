@@ -284,6 +284,8 @@ font-weight: 700;
   font-family: 'Open Sans', sans-serif; 
   font-weight: 600;
   margin-right: 10px;
+  width: 60%;
+  
 
 }
 
@@ -293,7 +295,6 @@ font-weight: 700;
     margin-left: 50px;
     font-size: 20px;
     color: #FFF;
-
 
 }
 
@@ -436,6 +437,15 @@ font-weight: 700;
         text-align: center; 
         padding-right: 30px;
         border: none;
+    }
+
+
+    .header__card_phone{
+        display: block;
+        position: absolute;
+        right: 0;
+        transform: translateY(-190px);
+        margin-right: 30px;
     }
 
    
