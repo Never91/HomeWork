@@ -61,7 +61,7 @@
 }
 
 .card_img{
-width: 35px;
+width: 38px;
 height: 32px;
 margin-right: 25px;
 
@@ -125,7 +125,9 @@ height: 900px;
 }
 
 
-
+.card_title{
+    font-weight: 700;
+}
 
 
 
@@ -138,6 +140,7 @@ height: 900px;
 
 .section2{
     min-width: 1200px;
+    
 }
 
 .key_features_conteiner{
@@ -162,6 +165,47 @@ height: 900px;
 
 
 }
+
+
+@media screen and (min-width: 1366px ){
+    .phone_key_fetures{
+        transform: translateY(-640px);
+        margin-right: 485px;
+
+    }
+}
+
+
+
+@media screen and (min-width: 1440px ){
+
+    .phone_key_fetures{
+        margin-right: 520px;
+
+    }
+}
+
+
+
+@media screen and (min-width: 1920px ){
+
+    .phone_key_fetures{
+        margin-right: 750px;
+
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 

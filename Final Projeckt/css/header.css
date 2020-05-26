@@ -308,7 +308,7 @@ font-weight: 700;
 
     .header__introduction{
         min-width: 768px ;
-        height: 760px;
+        min-height: 760px;
     }
 
 
@@ -429,7 +429,6 @@ font-weight: 700;
     .header__card_phone{
         display: block;
         position: absolute;
-        
         right: 0;
         transform: translateY(-190px);
         margin-right: 30px;
@@ -446,7 +445,6 @@ font-weight: 700;
     width: 400px;
 
 }
-
 
 
 
