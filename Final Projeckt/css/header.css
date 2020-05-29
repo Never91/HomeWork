@@ -7,6 +7,7 @@
     background-size: cover;
     padding-top: 20px;
     padding-bottom: 81px;
+    position: relative;
 }
 
 
@@ -221,6 +222,7 @@ font-weight: 700;
     width: 219px;
     margin-top: 30px;
     
+    
 
 
 }
@@ -417,12 +419,12 @@ font-weight: 700;
 
     .header__card_phone{
         display: block;
-        position: absolute;
-        right: 0;
-        transform: translateY(-390px);
-        margin-right: 30px; 
-        width:350px ;
-        height: 606px;
+    position: absolute;
+    right: 0;
+    bottom: -120px;
+   
+    width: 350px;
+    height: auto;
     }
 
 
@@ -542,10 +544,9 @@ font-weight: 700;
 
 
 .header__card_phone{
-    width:400px ;
-    height:693px ;
-    transform: translateY(-470px);
-    margin-right: 60px;
+    width: 400px;
+    bottom: -150px;
+    right: 60px;
 }
 
 
